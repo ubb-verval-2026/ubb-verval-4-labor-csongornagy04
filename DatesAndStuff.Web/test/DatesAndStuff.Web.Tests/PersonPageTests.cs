@@ -132,6 +132,7 @@ public class PersonPageTests
     
     
     [TestCase(-11)]
+    [TestCase(-10)]
     [TestCase(-25)]
     public void Person_SalaryIncrease_BelowMinimum_ShouldShowValidationMessages(double percent)
     {
